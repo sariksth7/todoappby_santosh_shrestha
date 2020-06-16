@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.santoshtodoapp.LoginActivity"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="Login"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Email"
+
+                android:background="@drawable/edit_design"
+                android:padding="15dp"
+                android:textColorHint="@android:color/black"
+                android:id="@+id/email_login"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Password"
+                android:background="@drawable/edit_design"
+                android:padding="15dp"
+                android:textColorHint="@android:color/black"
+                android:inputType="textPassword"
+                android:id="@+id/login_password"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Login"
+                android:padding="10dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_design"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:id="@+id/btn_login"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="OR"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="Register"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_design"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:id="@+id/btn_reg"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
