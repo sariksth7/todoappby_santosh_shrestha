@@ -13,9 +13,9 @@ Key Features of ToDo Application
 -	accessible anywhere, on any android device
 
 To Do lists for any purpose
-  -Bill planner
-  
- 	-Shopping list
+-Bill planner
+
+-Shopping list
 
 -Reminders
 
