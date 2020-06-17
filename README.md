@@ -29,9 +29,7 @@ A note taking app, using the Android Architecture Component libraries (`Room`, `
 - And more
 
 
-## How Android Architecture Components work?
-
-![](/screenshots/android_components.png)
+## Working Methodology of Component of Android Architecture
 
 **Entity**: When working with Architecture Components, this is an annotated class that describes a database table.
 
