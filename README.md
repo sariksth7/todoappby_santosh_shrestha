@@ -46,7 +46,7 @@ A note taking app, using the Android Architecture Component libraries (`Room`, `
 **LiveData**: A data holder class that can be observed. Always holds/caches latest version of data. Notifies its observers when the data has changed. LiveData is lifecycle aware. UI components just observe relevant data and don't stop or resume observation. LiveData automatically manages all of this since it's aware of the relevant lifecycle status changes while observing.
 
 
-#  APPLICATION DEMONSTRATION
+#  APPLICATION FUNCTIONALITY
 1. Adding a New ToDo Component
 
    New ToDo task can be easily added on to the application by clicking the flotting button at the bottom of the application. Inside the    activity you have various fields like Description, title, targeted date and priority of the task to be completed.
